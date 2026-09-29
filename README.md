@@ -58,13 +58,13 @@ For screenshots, keep the radial open and press an in-game screenshot key. Keybo
 
 ## Screenshots
 
-![Controller radial](controller-radial.png)
+![Controller radial](https://cdn.hexium.gg/upload/1087/images/131635df80fe8d16ff1ff747.png)
 
-![Keyboard hotbar](build-hotbar.png)
+![Keyboard hotbar](https://cdn.hexium.gg/upload/1087/images/aec6bfec3db55530b4ddfc40.png)
 
-[Controller settings](controller-settings.png) · [Keyboard settings](hotbar-settings.png)
+[Controller settings](https://cdn.hexium.gg/upload/1087/images/f7aa6f84491bd023d434626a.png) | [Keyboard settings](https://cdn.hexium.gg/upload/1087/images/752534ddf4c64fe0f671118b.png)
 
-The package includes current screenshots alongside the source: the controller radial, controller settings, PC hotbar and keyboard settings. They show a customised profile; defaults are eight slots, three rows and 100% menu sizes. The additional save shortcut shown in controller settings is customised; R2/RT always saves while the normal radial is open.
+Screenshots are hosted online and displayed on the mod pages, keeping them out of the download. They show a customised profile; defaults are eight slots, three rows and 100% menu sizes. The additional save shortcut shown in controller settings is customised; R2/RT always saves while the normal radial is open.
 
 ## Installation and updating
 
@@ -75,9 +75,17 @@ For manual installation, close the game and copy plugins/BuildHotbar into BepInE
 Updating from **0.8.0 preserves saved pieces and settings**, including your existing auto-activation preference. Configuration remains at BepInEx/config/ValheimEnthusiestKakimaki.BuildHotbar.cfg. No test-profile configuration is included in the release.
 
 
-## Source and license
+## Reporting issues
 
-Created by **ValheimEnthusiestKakimaki / KakimakiDev**. GNU GPL v3; see LICENSE.txt. The release includes Source.zip. This repository starts with the standalone 0.9.1 release.
+[Open an issue](https://github.com/KakimakiDev/ValheimBuildHotbar/issues/new) with your Valheim and mod versions, whether you use keyboard or controller, the building tool, steps to reproduce, and what you expected to happen. Include other building or UI mods and relevant log entries. Screenshots help with layout and selection problems.
+
+[Browse existing issues](https://github.com/KakimakiDev/ValheimBuildHotbar/issues) before reporting a problem.
+
+## Development
+
+[GitHub source](https://github.com/KakimakiDev/ValheimBuildHotbar) | [Building and testing](https://github.com/KakimakiDev/ValheimBuildHotbar#development)
+
+The release includes a compact Source.zip with the corresponding source and build instructions. Screenshots are excluded from both the package and Source.zip.
 
 To build the source, install the .NET SDK and .NET Framework 4.8 targeting pack. Place BepInEx.dll and 0Harmony.dll from BepInEx/core in tools/, then run:
 
@@ -86,5 +94,9 @@ dotnet build BuildHotbar.csproj -c Release -p:GameManaged="YOUR_VALHEIM/valheim_
 ```
 
 Output: bin/Release/net48/BuildHotbar.dll. Run Test-Wheel.ps1 for the selection, paging, binding and scaling checks.
+Release 0.9.2 updates download contents, documentation and version metadata. Saved pieces, settings and gameplay are unchanged.
 
+## License
+
+Created by **ValheimEnthusiestKakimaki / KakimakiDev**. [GNU GPL v3](https://github.com/KakimakiDev/ValheimBuildHotbar/blob/main/LICENSE.txt).
 

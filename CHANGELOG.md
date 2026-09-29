@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.9.2
+
+- Remove screenshots from downloads; display online-hosted images on the mod pages instead.
+- Add the GitHub source URL, issue-reporting links, development link and license link.
+- Packaging, documentation and version metadata update only. No gameplay or configuration changes.
+
 ## 0.9.1
 
 - Fix outdated left-stick API calls that caused missing-method errors with the current Valheim version.
@@ -26,5 +32,7 @@
 - Start with fresh settings and saved slots; no legacy configuration migration.
 - Remove the obsolete row-scroll modifier setting; use the configurable row-scroll key.
 - Update standalone installation instructions and package naming.
+
+
 
 

@@ -11,7 +11,7 @@ using UnityEngine.EventSystems;
 
 namespace Kakimaki.BuildHotbar;
 
-[BepInPlugin(Guid, "Build Hotbar", "0.9.1")]
+[BepInPlugin(Guid, "Build Hotbar", "0.9.2")]
 public sealed partial class BuildHotbarPlugin : BaseUnityPlugin
 {
     public const string Guid = "ValheimEnthusiestKakimaki.BuildHotbar";
@@ -475,6 +475,7 @@ public sealed class HotbarDragHandle : MonoBehaviour, IBeginDragHandler, IDragHa
     public void OnEndDrag(PointerEventData data) => Owner?.EndDrag();
     private void OnDisable() => Owner?.EndDrag();
 }
+
 
 
 
