@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.9.4
+
+- Remove the nested source ZIP from downloads as requested by Thunderstore moderation. Source and tests remain available on GitHub.
+- Keep screenshots hosted online and retain the GitHub source, issue-reporting and license links.
+- Packaging and version metadata update only. No gameplay or configuration changes.
+
+
 ## 0.9.2
 
 - Remove screenshots from downloads; display online-hosted images on the mod pages instead.

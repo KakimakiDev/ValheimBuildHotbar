@@ -11,7 +11,7 @@ using UnityEngine.EventSystems;
 
 namespace Kakimaki.BuildHotbar;
 
-[BepInPlugin(Guid, "Build Hotbar", "0.9.2")]
+[BepInPlugin(Guid, "Build Hotbar", "0.9.4")]
 public sealed partial class BuildHotbarPlugin : BaseUnityPlugin
 {
     public const string Guid = "ValheimEnthusiestKakimaki.BuildHotbar";

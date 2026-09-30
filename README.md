@@ -85,7 +85,7 @@ Updating from **0.8.0 preserves saved pieces and settings**, including your exis
 
 [GitHub source](https://github.com/KakimakiDev/ValheimBuildHotbar) | [Building and testing](https://github.com/KakimakiDev/ValheimBuildHotbar#development)
 
-The release includes a compact Source.zip with the corresponding source and build instructions. Screenshots are excluded from both the package and Source.zip.
+Source code, tests and build instructions are available in the [GitHub repository](https://github.com/KakimakiDev/ValheimBuildHotbar). Downloads contain the plugin and package documentation only, with no source archives, scripts or screenshots.
 
 To build the source, install the .NET SDK and .NET Framework 4.8 targeting pack. Place BepInEx.dll and 0Harmony.dll from BepInEx/core in tools/, then run:
 
@@ -94,7 +94,7 @@ dotnet build BuildHotbar.csproj -c Release -p:GameManaged="YOUR_VALHEIM/valheim_
 ```
 
 Output: bin/Release/net48/BuildHotbar.dll. Run Test-Wheel.ps1 for the selection, paging, binding and scaling checks.
-Release 0.9.2 updates download contents, documentation and version metadata. Saved pieces, settings and gameplay are unchanged.
+Release 0.9.4 removes the nested source archive and updates version metadata. Saved pieces, settings and gameplay are unchanged.
 
 ## License
 
